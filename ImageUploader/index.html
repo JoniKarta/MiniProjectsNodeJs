@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" >
+    <link rel="stylesheet" href="">
+    <title>Uploader</title>
+</head>
+<body>
+
+    <div class="header-container">
+        <h1>Image Uploader </h1>
+    </div>
+
+    <div class="content-container">
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="" class="upload-header">Image Upload</label><br>
+            <input type="file" name="images" accept="images/*" multiple><br>
+            <button class="button"><span>Upload</span></button>
+        </form>
+    </div>
+    
+
+</body>
+</html>
